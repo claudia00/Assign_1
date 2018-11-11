@@ -3,19 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
 
-    <TextView
-        android:id="@+id/tvOverView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="41dp"
-        android:layout_toEndOf="@+id/ivPoster"
-        android:text="TextView"
-        android:textSize="14sp"
-        tools:text='When Eddie Brock acquires the powers of a symbiote, he will have to release his alter-ego "Venom" to save his life.' />
 
     <ImageView
         android:id="@+id/ivPoster"
@@ -34,4 +24,16 @@
         android:text="TextView"
         android:textSize="24sp"
         tools:text="A star is born" />
+
+    <TextView
+        android:id="@+id/tvOverView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@+id/ivPoster"
+        android:text="TextView"
+        android:textSize="14sp"
+        tools:text='When Eddie Brock acquires the powers of a symbiote, he will have to release his alter-ego "Venom" to save his life.' />
+
 </RelativeLayout>
