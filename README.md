@@ -34,8 +34,7 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-I had a hard time setting up google playstore on the emulator.
+making the repository 
 
 ## Open-source libraries used
 
@@ -44,7 +43,7 @@ I had a hard time setting up google playstore on the emulator.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Claudia Martinez]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
